@@ -1,4 +1,4 @@
-cw1_html
+cw2_jquery
 ========
 
-To jest ćwiczenie pierwsze w ramach przedmiotu Technologie Internetowe
+To jest ćwiczenie drugie w ramach przedmiotu Technologie Internetowe
