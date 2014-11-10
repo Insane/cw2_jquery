@@ -59,8 +59,6 @@ h2{
 	padding-left:20px;
 	padding-right:20px;
 	background-color:#F5ECCE;
-	column-count:2;
-	column-gap: 20px;
 }
 #logo{
 	width:60px;
@@ -74,12 +72,6 @@ h2{
 	}
 #logo2:hover{
 		opacity:0.9;
-}
-#lewe{
-	float:left;
-}
-#prawe{
-	float:right;
 }
 .photo_w_tle{
 	height:470px;
@@ -133,7 +125,9 @@ td img:last-of-type{
 	border:2px solid #FFFFFF;
 	border-radius:7px;
 	padding:15px 0px 15px 0px;
-	margin-left:160px;	
+	margin-left:290px;	
+	min-width:200px;
+	width:500px;
 }
 .opis:hover{
 		color: #FFFFFF;
@@ -144,4 +138,47 @@ td img:last-of-type{
 }
 #z{
 	height:550px;
+}
+
+#gal{
+		list-style-type:none;
+
+}
+#gal2{
+		list-style-type:none;
+
+}
+.button{
+	min-width:50px;
+	display: block;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	border:3px solid #330000;
+	padding:0px;
+	margin:0px;	
+	margin-top:220px;
+	text-align:center;
+	font-weight: 500;
+	font-size:37px;
+	vertical-align:middle;
+	color:#330000;
+}
+.button:hover{
+	opacity:0.7;
+}
+#lewy{
+	float:left;
+	margin-left:350px;
+	
+}
+#prawy{
+	float:right;
+	margin-right:350px;
+	
+}
+.photo2{
+	width:600px;
+	text-align:center;
+	padding:0px;
 }
