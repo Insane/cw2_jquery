@@ -182,3 +182,6 @@ td img:last-of-type{
 	text-align:center;
 	padding:0px;
 }
+form{
+	line-height:50px;
+}
