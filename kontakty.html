@@ -9,38 +9,27 @@
 		<title>Projekt na Technologie Internetowe</title>
 	</head>
 	<body>
-		<div class="header">
-			<img id="logo" src="https://lh4.googleusercontent.com/-6CHrJef5iBE/VE0-kiRKsOI/AAAAAAAAASs/kW7jOugYJIg/s675-no/logo2.png"/>
-			<ul class="ul_menu">
-				<li class="li_menu"><a href="StronaPB.html">Home</a></li>
-				<li class="li_menu"><a target="_blank" href="http://www.facebook.com">Facebook</a></li>
-				<li class="li_menu"><a target="_blank" href="http://www.wikipedia.pl">Wiki</a></li>
-				<li class="li_menu"><a target="_blank" href="http://www.gmail.com">Contact</a></li>
-			</ul>
-		</div>
-		<div> Napisz swoją wiadomość już teraz! </div>
+		<div id="nagl_form"> Napisz swoją wiadomość już teraz! </div>
 		<div>
-		<form action="mailto:paulina.bednar@gmail.com" method="post">
-			<label for="imie">Imię: </label>
-				<input type="text" id="imie"><br>
-			<label for="nazw">Nazwisko: </label>
-				<input type="text" id="nazw"><br>
-			<label for="email">E-mail: </label>
-				<input type="text" id="email"><br>
-			<label for="wiad">Wiadomość: </label>
-				<input type="text" id="wiad"><br>
+		<form action="" method="post" novalidate="novalidate">
+			<fieldset id="f1">
+				<label for="imie">Imię: </label>
+				<input type="text" id="imie" value=""><br>
+			</fieldset>
+			<fieldset id="f2">
+				<label for="nazw">Nazwisko: </label>
+				<input type="text" id="nazw"  value=""><br> </fieldset>
+			<fieldset id="f3">
+				<label for="email">E-mail: </label>
+				<input type="text" id="email"  value=""><br> </fieldset>
+			<fieldset id="f4">
+				<label for="wiad">Wiadomość: </label>
+				<textarea id="wiad" cols="32" rows="20"></textarea>						
+				<div id="button_send">Wyślij</div>
+			</fieldset>
 		</form>
 		</div>
-	
-		<div class="footer">
-			<a href="StronaPB.html">
-				<img id="logo2" src="https://lh4.googleusercontent.com/-6CHrJef5iBE/VE0-kiRKsOI/AAAAAAAAASs/kW7jOugYJIg/s675-no/logo2.png"/>
-			</a>
-			<p>Zadanie pierwsze na Technologie Internetowe<br>
-			Autor: Paulina Bednar. Wroclaw, 18.10.2014r.
-			</p>
-		</div>
 		<script src="jquery-1.11.1.js"></script>
-		<script src="skrypt.js"></script>
+		<script src="skrypt2.js"></script>
 	</body>
 </html>

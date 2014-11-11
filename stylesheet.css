@@ -183,5 +183,65 @@ td img:last-of-type{
 	padding:0px;
 }
 form{
-	line-height:50px;
+	line-height:40px;
+	margin-bottom:30px;
+	
+}
+input{
+	float:right;
+	margin-top:10px;
+	width:280px;
+	}
+label{
+	float:left;
+}
+input#wiadomosc{
+	height:280px;
+}
+label#wiadomosc{
+		height:300px;
+
+}
+fieldset{
+	width:445px;
+}
+#nagl_form{
+	font-weight:500;
+	font-size:25px;
+	color:#330000;
+	margin-top:30px;
+}
+#button_send{
+	border:1px solid #000000;
+	background-color:#E2E6EB;
+	min-width:80px;
+	width:80px;
+	height:30px;
+	margin-left:500px;
+	font-weight:500;
+	color:#330000;
+	font-size:22;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	margin-left:345px;
+	margin-top:10px;
+	vertical-align:middle;
+	padding-bottom:10px;
+}
+textarea{
+	margin-left:70px;
+}
+p{
+	font-size:15px;
+	color:#7D0519;
+	margin:0px;
+	margin-left:160px;
+	padding:0px;
+	line-height:20px;
+}
+.kontener{
+	padding:0px;
+	margin:0px;
+	min-width:300px;
 }

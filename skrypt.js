@@ -39,6 +39,8 @@ $(function(){
 		});
 	listad.not(":first").hide();
 	
-
+	$("#contact").click(function(){
+		$(".kontener").load("kontakty.html");
+	});
 	
 });	
